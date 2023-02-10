@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom Favicon -->
+    <link rel="shortcut icon" href="./image/apple-calculator.png" type="image/x-icon" />
+
+    <title>AGE Caluculator</title>
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--normalize CSS -->
+    <link rel="stylesheet" href="./style/normalize.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <h1>Calculate Your Age <i class="fa-solid fa-calculator"></i></h1>
+    <div class="container">
+      <div class="inputs-wrapper">
+        <input type="date" id="date-input" />
+        <button onclick="ageCalculate()">Calculate</button>
+      </div>
+      <div class="outputs-wrapper">
+        <div>
+          <span id="years"> - </span>
+          <p>Years</p>
+        </div>
+        <div>
+          <span id="months"> - </span>
+          <p>Months</p>
+        </div>
+        <div>
+          <span id="days"> - </span>
+          <p>Days</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- social icons -->
+    <div class="social-icon">
+      <a href="https://www.instagram.com/single__tone______/"
+        ><i class="fa-brands fa-instagram icons"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/sanjay-vel-63b0271a2/"
+        ><i class="fa-brands fa-linkedin icons"></i
+      ></a>
+      <a href="https://github.com/Sanjay-tone?tab=repositories"
+        ><i class="fa-brands fa-github icons"></i
+      ></a>
+    </div>
+    <!-- social icons -->
+    <!-- Custom JavaScript -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
